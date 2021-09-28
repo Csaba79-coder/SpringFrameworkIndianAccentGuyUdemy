@@ -1,0 +1,12 @@
+= Good to know!
+
+Do not forget mvn install in terminal!
+
+The problem I had in pom.xml:
+
+https://stackoverflow.com/questions/64639836/plugin-org-springframework-bootspring-boot-maven-plugin-not-found
+
+This one fixed the problem, version was missing:
+
+image::image-2021-09-28-22-22-40-512.png[]
+
