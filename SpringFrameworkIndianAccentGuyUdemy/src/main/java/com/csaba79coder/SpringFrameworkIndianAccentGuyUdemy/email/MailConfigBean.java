@@ -2,6 +2,7 @@ package com.csaba79coder.SpringFrameworkIndianAccentGuyUdemy.email;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.*;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
 
 @Configuration

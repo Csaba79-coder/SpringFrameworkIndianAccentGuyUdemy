@@ -57,3 +57,18 @@ image::image-2021-09-29-21-10-09-448.png[]
 Let's continue in a separate project! ...
 
 
+if webserver 8080 is failed in terminál:
+
+netstat  -ano  |  findstr  8080
+
+then the number replace to the end:
+
+taskkill  /F  /PID  17280
+
+it was this terminal in IntelliJ:
+
+image::image-2021-09-29-23-42-39-186.png[]
+
+Then it shows and you can use localhost again:
+
+image::image-2021-09-29-23-43-24-962.png[]
