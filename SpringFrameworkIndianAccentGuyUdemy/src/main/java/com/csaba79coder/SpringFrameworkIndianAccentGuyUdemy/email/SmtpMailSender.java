@@ -4,7 +4,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Component;
 
-// @Component //only this one or only the otherone can  be Component at one time!
+@Component //only this one or only the other one can  be Component at one time!
 public class SmtpMailSender implements MailSender {
 
     // private static final ILoggerFactory LOG = (ILoggerFactory) name -> null;
