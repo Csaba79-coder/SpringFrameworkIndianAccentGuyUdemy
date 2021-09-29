@@ -10,3 +10,6 @@ This one fixed the problem, version was missing:
 
 image::image-2021-09-28-22-22-40-512.png[]
 
+Under src there are resources folder, and there you can find application.properties
+
+In this one you can set the properties like localhost, domain, password, etc. and check under HelloController how to get the values!
