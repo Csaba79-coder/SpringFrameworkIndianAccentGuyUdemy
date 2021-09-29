@@ -2,13 +2,9 @@ package com.csaba79coder.SpringFrameworkIndianAccentGuyUdemy.email;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component //only this one or only the other one can  be Component at one time!
-// BUT let's see the solution to have the multiple solution! - first add devtool to pom.xml if you did not have it before
-@Qualifier("smtpMailSender") // use this qualifier in the MailController!!!
-// @Qualifier is enough to be here! and that means it runs smtpMailSender!
+// @Component //only this one or only the otherone can  be Component at one time!
 public class SmtpMailSender implements MailSender {
 
     // private static final ILoggerFactory LOG = (ILoggerFactory) name -> null;
