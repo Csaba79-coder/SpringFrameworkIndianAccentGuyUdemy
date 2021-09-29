@@ -13,3 +13,28 @@ image::image-2021-09-28-22-22-40-512.png[]
 Under src there are resources folder, and there you can find application.properties
 
 In this one you can set the properties like localhost, domain, password, etc. and check under HelloController how to get the values!
+
+
+'''
+SpringProfile
+
+There are 3 environments:
+
+1. development
+2. production
+3. test
+
+'''
+There are 5 profiles:
+
+- book
+- grocery
+- dev
+- test
+- prod
+
+
+So we would like to use SMTP mail sender in production environment, and the MOCK mail sender in development!
+
+So for this reason add @Profile("dev") to mock mail sender! And this means you can use this one in development environment!
+
