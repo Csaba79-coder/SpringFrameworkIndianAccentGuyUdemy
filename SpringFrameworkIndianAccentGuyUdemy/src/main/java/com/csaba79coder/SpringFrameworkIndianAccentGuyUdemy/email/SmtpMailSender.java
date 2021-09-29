@@ -2,9 +2,11 @@ package com.csaba79coder.SpringFrameworkIndianAccentGuyUdemy.email;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component //only this one or only the other one can  be Component at one time!
+@Primary
 public class SmtpMailSender implements MailSender {
 
     // private static final ILoggerFactory LOG = (ILoggerFactory) name -> null;

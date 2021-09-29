@@ -19,7 +19,7 @@ public class MailController {
     public String mail() {
 
         mailSender.send("mail@example.com", "A test mail", "Body of the test mail!");
-        // mailSender.send("csabavadasz79@gmail.com", "first test email", "I learnt it at UDEMY!!!");
+        mailSender.send("csabavadasz79@gmail.com", "first test email", "I learnt it at UDEMY!!!");
         return "Mail sent!";
     }
 }

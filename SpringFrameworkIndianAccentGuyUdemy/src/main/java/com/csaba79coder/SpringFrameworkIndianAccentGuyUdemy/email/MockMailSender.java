@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 // component help for dependency injection to change smtp mail sender and mock mail sender regarding who uses it! - pair is Autowired!
 @Component
 // if we have no @Component annotation here, we can create a MailConfig class!!! ...
-@Primary // makes the injection primary! -- removing Primary annotation to try the Qualifier!
+// @Primary // makes the injection primary! -- removing Primary annotation to try the Qualifier!
 public class MockMailSender implements MailSender {
 
     // private static final ILoggerFactory LOG = (ILoggerFactory) name -> null;

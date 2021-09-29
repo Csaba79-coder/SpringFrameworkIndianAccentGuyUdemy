@@ -38,3 +38,22 @@ So we would like to use SMTP mail sender in production environment, and the MOCK
 
 So for this reason add @Profile("dev") to mock mail sender! And this means you can use this one in development environment!
 
+You may find in txt file the required codes and fields for sending email!
+
+Do not forget maven dependency:
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
+
+For more details check this website:
+
+https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/boot-features-email.html
+
+image::image-2021-09-29-21-05-46-291.png[]
+
+do not forget pom.xml!!! from maven dependencies!
+
+image::image-2021-09-29-21-10-09-448.png[]
+
+Let's continue in a separate project! ...
+
+
